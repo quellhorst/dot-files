@@ -16,6 +16,8 @@ alias proj="cd ~/Projects/"
 alias docs="cd ~/Documents/"
 alias down="cd ~/Downloads/"
 
+alias ll="ls -la"
+
 # Rails aliases
 alias sc="script/console"
 alias ss="script/server"
