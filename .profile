@@ -36,6 +36,7 @@ alias gca="git commit -v -a"
 alias ga="git add"
 alias gb="git branch"
 alias gd="git diff"
+alias gp="git push"
 alias gco="git checkout"
 
 #alias ruby19="export PATH=/opt/ruby19/bin:$PATH"
