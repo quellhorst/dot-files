@@ -1,0 +1,42 @@
+[user]
+  name = Dan Quellhorst
+  email = dan@abtain.com
+  
+[apply]
+  whitespace = nowarn
+  
+[diff]
+    color = auto
+    rename = copy
+    
+[pager]
+    color = true
+    
+[status]
+    color = auto
+    
+[alias]
+  co = checkout
+  c = commit
+  stat = status
+  
+[color]
+  branch = auto
+  diff = auto
+  status = auto
+  
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+  
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+  
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan
