@@ -41,7 +41,7 @@ GOARCH=amd64
 
 IRCSERVER=irc.freenode.net
 
-PATH="/opt/local/ruby-1.8.7-p174/bin:/usr/local/mysql-5.1.37-osx10.5-x86_64/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin/:/usr/local/bin:${HOME}/bin:$PATH"
+PATH="/Users/quellhorst/Developer/bin:${HOME}/bin:$PATH"
 TZ="America/Chicago"
 HISTFILE=$HOME/.zhistory
 HISTSIZE=1000
@@ -250,3 +250,4 @@ zstyle '*' single-ignored show
 
 if [[ -s /Users/quellhorst/.rvm/scripts/rvm ]] ; then source /Users/quellhorst/.rvm/scripts/rvm ; fi
 
+source ~/.cinderella.profile
