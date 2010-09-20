@@ -248,6 +248,4 @@ zstyle ':completion:*:ssh:*' group-order \
    hosts-domain hosts-host users hosts-ipaddr
 zstyle '*' single-ignored show
 
-if [[ -s /Users/quellhorst/.rvm/scripts/rvm ]] ; then source /Users/quellhorst/.rvm/scripts/rvm ; fi
-
 source ~/.cinderella.profile
