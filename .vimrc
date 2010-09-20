@@ -11,6 +11,7 @@ set expandtab
 set tabstop=4
 set shiftwidth=4
 set textwidth=0
+set gfn=Inconsolata:h18
 
 if has("autocmd")
 	autocmd bufwritepost .vimrc source $MYVIMRC
