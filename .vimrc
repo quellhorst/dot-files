@@ -26,3 +26,17 @@ nmap <D-[> <<
 nmap <D-]> >>
 vmap <D-[> <gv
 vmap <D-]> >gv
+
+imap <C-a> <Esc>0i
+imap <C-e> <Esc>$a
+
+function! AckGrep(command)
+  cexpr system("ack " . a:command)
+  cw " show quickfix window already
+endfunction
+
+command! -nargs=+ -complete=file Ack call AckGrep(<q-args>)
+map <leader>a :Ack<space>
+
+set grepprg=ack
+set grepformat=%f:%l:%m
