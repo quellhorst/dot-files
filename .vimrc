@@ -19,6 +19,7 @@ endif
 
 let mapleader=","
 nmap <leader>v :tabedit $MYVIMRC<CR>
+nmap <leader>n :NERDTreeToggle<CR>
 
 " Emulate TextMate's shift left/right key commands
 nmap <D-[> <<
